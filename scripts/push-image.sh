@@ -13,7 +13,7 @@
 #       ./scripts/push-image.sh
 #
 
-set -u # or set -o nounset
+set -u # or set -o nounset changes some code
 : "$CONTAINER_REGISTRY"
 : "$VERSION"
 : "$REGISTRY_UN"
