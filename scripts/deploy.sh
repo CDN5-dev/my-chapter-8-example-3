@@ -13,7 +13,7 @@
 #   ./scripts/deploy.sh
 #
 
-set -u # or set -o nounset
+set -u # or set -o nounset hi guys
 : "$CONTAINER_REGISTRY"
 : "$VERSION"
 
